@@ -3,9 +3,9 @@ import pandas as pd
 
 from config_path_00 import DIRETORIO_RAW, DB_CAMINHO
 
-# ================================
-# ======== Estágio Bronze ========
-# ================================
+# ============================================
+# ======== Ingestão de dados - Bronze ========
+# ============================================
 
 # Dados crus, da forma que veio no CSV
 # O Objetivo é carregar os dados Crus sem tra.*
