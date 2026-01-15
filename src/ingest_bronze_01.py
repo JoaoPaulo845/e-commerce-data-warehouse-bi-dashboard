@@ -48,11 +48,13 @@ def main():
 if __name__ == "__main__":
     main()
 
-# Output carregado com sucesso!
+# Output:
 
 """
 bronze_schema.orders carregado (99441 linhas)
 bronze_schema.order_items carregado (112650 linhas)
 bronze_schema.customers carregado (99441 linhas)
 bronze_schema.products carregado (32951 linhas)
-bronze_schema.category_translate carregado (71 linhas) """
+bronze_schema.category_translate carregado (71 linhas) 
+
+"""
