@@ -65,11 +65,11 @@ def main():
             ON p.product_category_name = t.product_category_name;
     """)
 
-    print("\nChecagem se consulta está ok:")
-    print(con.execute("SELECT * FROM silver_schema.orders;").fetchdf())
-    print(con.execute("SELECT * FROM silver_schema.order_items;").fetchdf())
-    print(con.execute("SELECT * FROM silver_schema.customers;").fetchdf())
-    print(con.execute("SELECT * FROM silver_schema.products;").fetchdf())
+    print("\nSelect para checagem:")
+    print(con.execute("SELECT * FROM silver_schema.orders LIMIT 3").fetchdf())
+    print(con.execute("SELECT * FROM silver_schema.order_items LIMIT 3").fetchdf())
+    print(con.execute("SELECT * FROM silver_schema.customers LIMIT 3").fetchdf())
+    print(con.execute("SELECT * FROM silver_schema.products LIMIT 3").fetchdf())
 
     con.close()
     print("\nCamada Bronze concluída com sucesso!")
