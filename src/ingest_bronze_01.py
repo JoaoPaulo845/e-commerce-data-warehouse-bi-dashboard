@@ -57,4 +57,4 @@ bronze_schema.customers carregado (99441 linhas)
 bronze_schema.products carregado (32951 linhas)
 bronze_schema.category_translate carregado (71 linhas) 
 
-"""
+""" 

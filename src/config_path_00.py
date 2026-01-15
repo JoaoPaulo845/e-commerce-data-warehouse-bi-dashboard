@@ -8,3 +8,4 @@ DIRETORIO_RAW = PROJETO_ROOT / "data" / "raw"
 
 # Banco DuckDB
 DB_CAMINHO = PROJETO_ROOT / "outputs" / "datawarehouse.duckdb"
+ 

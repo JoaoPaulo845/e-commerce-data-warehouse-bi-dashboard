@@ -68,7 +68,7 @@ def main():
         FROM bronze_schema.order_items;
     """).fetchdf())
 
-    # Valores negativos - não faz sentido para preço ou frete
+    # Valores negativos - não faz sentido para preço ou frete 
     print("\nChecagem de valores negativos:")
     print(con.execute("""
         SELECT

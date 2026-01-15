@@ -46,7 +46,7 @@ def main():
     """)
 
     # DIM_PRODUCT
-    # Dimensão doproduto
+    # Dimensão doproduto 
 
     con.execute("""
         CREATE OR REPLACE TABLE gold_schema.dim_product AS
