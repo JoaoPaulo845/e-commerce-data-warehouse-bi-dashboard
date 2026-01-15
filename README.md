@@ -4,7 +4,7 @@ Projeto para portfólio focado na construção de um **Data Warehouse de Vendas 
 
 ---
 
-## 📊 Dashboard (Power BI)
+## Dashboard - Power BI
 
 A camada **Gold** alimenta diretamente o Power BI com uma base pronta para BI.
 
@@ -12,7 +12,7 @@ A camada **Gold** alimenta diretamente o Power BI com uma base pronta para BI.
 
 ---
 
-## 🧱 Arquitetura de Dados - Medallion: Bronze / Silver / Gold
+## Arquitetura de Dados - Medallion: Bronze / Silver / Gold
 
 ### Bronze 
 - Ingestão dos arquivos **CSV** no formato original  
@@ -30,7 +30,7 @@ A camada **Gold** alimenta diretamente o Power BI com uma base pronta para BI.
 
 ---
 
-## 📌 Principais análises e KPIs
+## Principais análises e KPIs
 - **Receita total do mês / ano**
 - **Vendas totais do mês / ano**
 - **Top produtos e categorias** 
@@ -40,13 +40,13 @@ A camada **Gold** alimenta diretamente o Power BI com uma base pronta para BI.
 
 ---
 
-## 🛠️ Stack
+## Stack
 - **Python e DuckDB** (DW local e SQL analítico)
 - **Power BI** (modelagem, DAX e Dashboard)
 
 ---
 
-## ✅ Objetivo do projeto
+## Objetivo do projeto
 Construir uma base analítica confiável e escalável para e-commerce, seguindo uma arquitetura moderna de pipelines (**Medallion**) e entregando 4 datasets finais otimizados para BI (**star schema**), capaz de sustentar análises executivas e operacionais com consistência.
 
 ---
